@@ -1,4 +1,4 @@
-FROM nginx
+FROM public.ecr.aws/nginx/nginx:latest
 EXPOSE 80
 RUN apt-get update -y && \
   apt-get upgrade -y && \
